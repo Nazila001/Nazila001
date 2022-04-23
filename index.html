@@ -9,7 +9,7 @@
     <title>Document</title>
 
     <style>
-        body {
+        .total {
             display: block;
             margin: 58px auto;
             padding: 20px;
@@ -88,37 +88,46 @@
 
     }
     .source {
-        margin:0 10px;
+        display: block;
+        margin: 58px auto;
+        padding: 0px;
+        width: 40%;
         color: rgb(4, 78, 78);
     }
     </style>
 </head>
 
 <body>
-    <form id="searchCity">
-        <input id="city-name" class="searchBox_details" type="text" placeholder="Type a city..." />
-        <input class="back_button" type="submit" value="Search" />
-    </form>
-    <button>
-        Current
-    </button>
-    <h1></h1>
-    <h2></h2>
-
+    <div class="total">
+        <form id="searchCity">
+            <input id="city-name" class="searchBox_details" type="text" placeholder="Type a city..." />
+            <input class="back_button" type="submit" value="Search" />
+        </form>
+        <button>
+            Current
+        </button>
+        <h1></h1>
+        <h2></h2>
     
-    <section class="weather_details">
-        Precipitation: 0% <br />
-        Humidity: 80% <br />
-        Wind: 8 km/h
-    </section>
-    <div class="temp_details" id="id_temp"> <small class="font_degree"></small></div>
-    <fram>
-
-    </fram>
-    <a href="https://github.com/Nazila001/Nazila001" target="_blank" class="source">
-        Open source code,
-    </a>
-    by Nazila 
+        
+        <section class="weather_details">
+            Precipitation: 0% <br />
+            Humidity: 80% <br />
+            Wind: 8 km/h
+        </section>
+        <div class="temp_details" id="id_temp"> <small class="font_degree"></small></div>
+        <fram>
+    
+        </fram>
+         
+    </div>
+    <div class="source">
+        <a href="https://github.com/Nazila001/Nazila001" target="_blank" >
+            Open source code,
+        </a>
+        by Nazila
+    </div>
+    
 </body>
 
 
